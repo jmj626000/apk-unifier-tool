@@ -1,0 +1,16 @@
+# 构建产物
+desktop/target/
+desktop/dist/
+android/build/
+android/.gradle/
+android/app/build/
+
+# 本地敏感配置（不随仓库分发）
+android/local.properties
+android/keystore.properties
+android/keystore/
+
+# 杂项
+*.log
+*.class
+.DS_Store
